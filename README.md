@@ -21,3 +21,14 @@ GRUB_SAVEDEFAULT=true
 Then run:
 
 ```sudo update-grub```
+
+3. Install terminator
+
+(Source: https://gnometerminator.blogspot.com/p/introduction.html)
+
+```
+sudo add-apt-repository ppa:gnome-terminator
+sudo apt-get update
+sudo apt-get install terminator
+```
+
