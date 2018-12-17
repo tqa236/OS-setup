@@ -43,3 +43,9 @@ sudo apt-get update
 ```
 
 TODO: Install all suport packages for Python and C++ programming.
+
+5. Configure Firefox
+
+- Restore previous section
+- Always ask you where to save files
+- Install Adblock Plus and EverSync
