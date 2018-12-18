@@ -77,4 +77,11 @@ sudo update-grub
 ```
 
 8. Update graphical card drivers for Ubuntu
+
 (Source: https://www.howtogeek.com/242045/how-to-get-the-latest-nvidia-amd-or-intel-graphics-drivers-on-ubuntu/)
+
+```
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo apt-get install nvidia-415 # Use the latest one
+```
