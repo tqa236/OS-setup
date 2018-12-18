@@ -51,3 +51,7 @@ C++ packages: atom-ctags, atomic-rtags, autocomplete-ctags, linter-clang, atom-t
 - Restore previous section
 - Always ask you where to save files
 - Install Adblock Plus and EverSync
+
+6. Solve the problem that Ubuntu hangs on boot
+
+(Source: https://askubuntu.com/questions/764568/ubuntu-16-04-hangs-on-shutdown-restart)
