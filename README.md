@@ -22,7 +22,9 @@ GRUB_SAVEDEFAULT=true
 
 Then run:
 
-```sudo update-grub```
+```
+sudo update-grub
+```
 
 3. Install terminator
 
@@ -70,7 +72,9 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash reboot=pci"
 
 Then run:
 
-```sudo update-grub```
+```
+sudo update-grub
+```
 
 8. Update graphical card drivers for Ubuntu
 (Source: https://www.howtogeek.com/242045/how-to-get-the-latest-nvidia-amd-or-intel-graphics-drivers-on-ubuntu/)
