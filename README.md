@@ -43,7 +43,8 @@ sudo apt-get update
 ```
 
 Python packages: atom-beautify, autocomplete-python, compare-files, docblock-python, linter, linter-flake8, linter-pydocstyle, pretty-json, python-autopep8, python-tools, python-yapf, script, linter-mypy, linter-pylint
-TODO: Install all suport packages for Python and C++ programming.
+
+C++ packages: atom-ctags, atomic-rtags, autocomplete-ctags, linter-clang, atom-terminal-panel, switch-header-source
 
 5. Configure Firefox
 
