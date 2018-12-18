@@ -52,6 +52,23 @@ C++ packages: atom-ctags, atomic-rtags, autocomplete-ctags, linter-clang, atom-t
 - Always ask you where to save files
 - Install Adblock Plus and EverSync
 
-6. Solve the problem that Ubuntu hangs on boot
+6. Ubuntu hangs on boot
 
 (Source: https://askubuntu.com/questions/764568/ubuntu-16-04-hangs-on-shutdown-restart)
+
+7. Ubuntu 16.04 freezes on restart
+
+(Source: http://michalorman.com/2013/10/fix-ubuntu-freeze-during-restart/)
+
+Put the following in ```/etc/default/grub```:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash reboot=pci"
+```
+
+Then run:
+
+```sudo update-grub```
+
+8. Update graphical card drivers for Ubuntu
+(Source: https://www.howtogeek.com/242045/how-to-get-the-latest-nvidia-amd-or-intel-graphics-drivers-on-ubuntu/)
