@@ -85,3 +85,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 sudo apt-get install nvidia-415 # Use the latest one
 ```
+
+9. Install R & RStudio on Ubuntu
+
+(Source: https://gist.github.com/mGalarnyk/41c887e921e712baf86fecc507b3afc7#file-rstudioubuntu1604-sh)
