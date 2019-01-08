@@ -89,3 +89,7 @@ sudo apt-get install nvidia-415 # Use the latest one
 9. Install R & RStudio on Ubuntu
 
 (Source: https://gist.github.com/mGalarnyk/41c887e921e712baf86fecc507b3afc7#file-rstudioubuntu1604-sh)
+
+10. Install Anaconda with zsh
+
+(Source: https://stackoverflow.com/questions/31615322/zsh-conda-pip-installs-command-not-found)
