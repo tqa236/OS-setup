@@ -93,3 +93,11 @@ sudo apt-get install nvidia-415 # Use the latest one
 10. Install Anaconda with zsh
 
 (Source: https://stackoverflow.com/questions/31615322/zsh-conda-pip-installs-command-not-found)
+
+11. Fix GPG Error
+
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
+```
+
+(Source: https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/)
