@@ -101,3 +101,14 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
 ```
 
 (Source: https://chrisjean.com/fix-apt-get-update-the-following-signatures-couldnt-be-verified-because-the-public-key-is-not-available/)
+
+12. Add conda environment to Jupyter Lab
+
+(Source: https://stackoverflow.com/questions/53004311/how-to-add-conda-environment-to-jupyter-lab)
+
+```
+$ conda activate cenv
+(cenv)$ conda install ipykernel
+(cenv)$ ipython kernel install --user --name=<any_name_for_kernel>
+(cenv($ conda deactivate
+```
