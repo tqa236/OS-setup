@@ -112,3 +112,7 @@ $ conda activate cenv
 (cenv)$ ipython kernel install --user --name=<any_name_for_kernel>
 (cenv($ conda deactivate
 ```
+
+13. Move /home to a new partition
+
+(source: https://help.ubuntu.com/community/Partitioning/Home/Moving)
