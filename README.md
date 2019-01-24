@@ -32,9 +32,11 @@ sudo update-grub
 
 ```
 sudo add-apt-repository ppa:gnome-terminator
-sudo apt-get update
-sudo apt-get install terminator
+sudo apt update
+sudo apt install terminator
 ```
+
+If there is a No release file error, go to **Software & Updates -> Other Software** and uncheck 2 lines that have the word Terminator in them.
 
 4. Install Atom
 
@@ -43,8 +45,11 @@ sudo apt-get install terminator
 ```
 curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt-get update
+sudo apt update
+sudo apt install atom
 ```
+
+If there is a public key error, see #11, replace the public key in #11 buy the public key shown on terminal
 
 Python packages: atom-beautify, autocomplete-python, compare-files, docblock-python, linter, linter-flake8, linter-pydocstyle, pretty-json, python-autopep8, python-tools, python-yapf, script, linter-mypy, linter-pylint
 
@@ -82,8 +87,8 @@ sudo update-grub
 
 ```
 sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt-get update
-sudo apt-get install nvidia-415 # Use the latest one
+sudo apt update
+sudo apt install nvidia-415 # Use the latest one
 ```
 
 9. Install R & RStudio on Ubuntu
