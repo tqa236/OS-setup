@@ -121,3 +121,8 @@ $ conda activate cenv
 13. Move /home to a new partition
 
 (source: https://help.ubuntu.com/community/Partitioning/Home/Moving)
+
+14. Solve BIOS and UEFI incompatibility
+(Source: http://www.rodsbooks.com/refind/)
+
+Install rEFInd
