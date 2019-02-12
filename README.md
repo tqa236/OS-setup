@@ -127,3 +127,9 @@ $ conda activate cenv
 (Source: http://www.rodsbooks.com/refind/)
 
 Install rEFInd
+
+15. Install Vietnamese keyboard
+
+(Source: https://vinasupport.com/huong-dan-cai-bo-go-tieng-viet-ibus-unikey-tren-ubuntu/)
+
+Use `ibus-ubuntu`
