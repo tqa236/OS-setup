@@ -133,3 +133,7 @@ Install rEFInd
 (Source: https://vinasupport.com/huong-dan-cai-bo-go-tieng-viet-ibus-unikey-tren-ubuntu/)
 
 Use `ibus-ubuntu`
+
+16. Fix `error: unknown filesystem` while installing Arch Linux
+
+(Source: https://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue)
