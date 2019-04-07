@@ -12,7 +12,11 @@
 
 (Source: https://wiki.archlinux.org/index.php/xfce)
 
+Install:
+
 ```
 pacman -S xfce4
 pacman -S xfce4-goodies
 ```
+
+Start: Add `exec startxfce4` to `/etc/X11/xinit/xinitrc`
