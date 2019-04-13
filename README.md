@@ -137,3 +137,12 @@ Use `ibus-ubuntu`
 16. Fix `error: unknown filesystem` while installing Arch Linux
 
 (Source: https://askubuntu.com/questions/142300/how-to-fix-error-unknown-filesystem-grub-rescue)
+
+17. Auto-intall all Atom packages
+
+(Source: https://discuss.atom.io/t/installed-packages-list-into-single-file/12227/2)
+
+```
+apm list --installed --bare > package-list.txt
+apm install --packages-file package-list.txt
+```
