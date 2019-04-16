@@ -146,3 +146,14 @@ Use `ibus-ubuntu`
 apm list --installed --bare > package-list.txt
 apm install --packages-file package-list.txt
 ```
+
+18. Fix "Unable to lock the administration directory"
+
+(Source: https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process)
+
+```
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+```
