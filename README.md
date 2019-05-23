@@ -22,7 +22,7 @@ GRUB_SAVEDEFAULT=true
 
 Then run:
 
-```
+```console
 sudo update-grub
 ```
 
@@ -30,7 +30,7 @@ sudo update-grub
 
 (Source: https://gnometerminator.blogspot.com/p/introduction.html)
 
-```
+```console
 sudo add-apt-repository ppa:gnome-terminator
 sudo apt update
 sudo apt install terminator
@@ -42,7 +42,7 @@ If there is a No release file error, go to **Software & Updates -> Other Softwar
 
 (Source: https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
-```
+```console
 curl -sL https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
 sudo apt update
@@ -77,15 +77,15 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash reboot=pci"
 
 Then run:
 
-```
-sudo update-grub
+```console
+$ sudo update-grub
 ```
 
 8. Update graphical card drivers for Ubuntu
 
 (Source: https://www.howtogeek.com/242045/how-to-get-the-latest-nvidia-amd-or-intel-graphics-drivers-on-ubuntu/)
 
-```
+```console
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 sudo apt install nvidia-415 # Use the latest one
@@ -101,7 +101,7 @@ sudo apt install nvidia-415 # Use the latest one
 
 11. Fix GPG Error
 
-```
+```console
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
 ```
 
@@ -111,7 +111,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5
 
 (Source: https://stackoverflow.com/questions/53004311/how-to-add-conda-environment-to-jupyter-lab)
 
-```
+```console
 $ conda activate cenv
 (cenv)$ conda install ipykernel
 (cenv)$ ipython kernel install --user --name=<any_name_for_kernel>
@@ -142,7 +142,7 @@ Use `ibus-ubuntu`
 
 (Source: https://discuss.atom.io/t/installed-packages-list-into-single-file/12227/2)
 
-```
+```console
 apm list --installed --bare > package-list.txt
 apm install --packages-file package-list.txt
 ```
@@ -151,7 +151,7 @@ apm install --packages-file package-list.txt
 
 (Source: https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process)
 
-```
+```console
 sudo rm /var/lib/apt/lists/lock
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
@@ -160,6 +160,6 @@ sudo dpkg --configure -a
 
 19. Recursively find all files with a given name
 
-```
+```console
 find . -name "foo*"
 ```
