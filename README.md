@@ -163,3 +163,9 @@ sudo dpkg --configure -a
 ```console
 find . -name "foo*"
 ```
+
+20. The difference between `$` and `#` in command line commands?
+
+(Source: https://stackoverflow.com/questions/35104339/what-does-the-mean-in-command-line-commands/48215530#48215530)
+
+`$` is there to tell you that this command needs to be executed as a regular user. `#` commands must be executed as **root**
