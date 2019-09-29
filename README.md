@@ -169,3 +169,10 @@ find . -name "foo*"
 (Source: https://stackoverflow.com/questions/35104339/what-does-the-mean-in-command-line-commands/48215530#48215530)
 
 `$` is there to tell you that this command needs to be executed as a regular user. `#` commands must be executed as **root**
+
+21. [Check for large softwares](https://www.commandlinefu.com/commands/view/3842/list-your-largest-installed-packages-on-debianubuntu)
+
+```console
+# sudo apt install wajig
+wajig large
+```
