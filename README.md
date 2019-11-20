@@ -177,7 +177,7 @@ find . -name "foo*"
 wajig large
 ```
 
-22. (Delete all remote branches except master on Git)[https://www.hacksparrow.com/git/delete-all-remote-branches-except-master.html]
+22. [Delete all remote branches except master on Git](https://www.hacksparrow.com/git/delete-all-remote-branches-except-master.html)
 
 ```console
 git branch -r |  grep "^  ${REMOTE}/" | sed "s|^  ${REMOTE}/|:|" | grep -v "^:HEAD" | grep -v "^:${MASTER}$" | xargs git push ${REMOTE}
