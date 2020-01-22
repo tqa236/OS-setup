@@ -182,3 +182,10 @@ wajig large
 ```console
 git branch -r |  grep "^  ${REMOTE}/" | sed "s|^  ${REMOTE}/|:|" | grep -v "^:HEAD" | grep -v "^:${MASTER}$" | xargs git push ${REMOTE}
 ```
+
+23. [Create ssh config file to connect to a remote server](https://linuxize.com/post/using-the-ssh-config-file/)
+
+```console
+touch ~/.ssh/config
+chmod 600 ~/.ssh/config
+```
