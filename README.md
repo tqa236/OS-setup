@@ -189,3 +189,9 @@ git branch -r |  grep "^  ${REMOTE}/" | sed "s|^  ${REMOTE}/|:|" | grep -v "^:HE
 touch ~/.ssh/config
 chmod 600 ~/.ssh/config
 ```
+
+24. [ssh connect without password](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/)
+
+```console
+ssh-copy-id remote_username@server_ip_address
+```
