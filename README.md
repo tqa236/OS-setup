@@ -201,3 +201,9 @@ chmod 600 ~/.ssh/config
 ```console
 ssh-copy-id remote_username@server_ip_address
 ```
+
+25. Share keyboard and mouse between multiple computers
+
+(Souce: https://askubuntu.com/questions/1064465/free-software-to-share-mouse-and-keyboard-between-linux-and-windows)
+
+For now, only work if Ubuntu is a server and Windows is a client
