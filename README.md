@@ -40,6 +40,12 @@ If there is a No release file error, go to **Software & Updates -> Other Softwar
 
 4. Install Atom
 
+Update (02/02/2020)
+
+```console
+sudo snap install atom --classic
+```
+
 (Source: https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
 ```console
