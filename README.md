@@ -207,3 +207,12 @@ ssh-copy-id remote_username@server_ip_address
 (Souce: https://askubuntu.com/questions/1064465/free-software-to-share-mouse-and-keyboard-between-linux-and-windows)
 
 For now, only work if Ubuntu is a server and Windows is a client
+
+26. Install zsh plugins
+
+* autosuggestions: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+* command not found: https://askubuntu.com/questions/34978/configuring-to-detect-if-a-command-does-not-exist-suggest-installation
+
+```console
+[[ -a "/etc/zsh_command_not_found" ]] && . /etc/zsh_command_not_found
+```
