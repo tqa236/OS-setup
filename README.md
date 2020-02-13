@@ -216,3 +216,8 @@ For now, only work if Ubuntu is a server and Windows is a client
 ```console
 [[ -a "/etc/zsh_command_not_found" ]] && . /etc/zsh_command_not_found
 ```
+
+27. Sort directories by size
+
+```console
+du -h --max-depth=1 | sort -hr
