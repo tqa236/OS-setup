@@ -230,3 +230,17 @@ Use this command to find the big files, then delete only the big files.
 ```console
 du -hs /tmp /var/log 
 ```
+
+29. [Delete caches](https://askubuntu.com/questions/102046/is-it-okay-to-delete-the-cache-folder)
+
+This will delete everything in your .cache that was last accessed more than a year ago
+
+```console
+find ~/.cache/ -type f -atime +365 -delete
+```
+
+If you're nervous about running it, this will show you what's going to be deleted:
+
+```console
+find ~/.cache/ -depth -type f -atime +365
+```
