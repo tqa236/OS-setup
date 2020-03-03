@@ -221,3 +221,12 @@ For now, only work if Ubuntu is a server and Windows is a client
 
 ```console
 du -h --max-depth=1 | sort -hr
+```
+
+28. [cannot create temp file for here-document: No space left on device](https://unix.stackexchange.com/questions/277387/tab-completion-errors-bash-cannot-create-temp-file-for-here-document-no-space)
+
+Use this command to find the big files, then delete only the big files.
+
+```console
+du -hs /tmp /var/log 
+```
