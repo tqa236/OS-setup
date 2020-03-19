@@ -244,3 +244,10 @@ If you're nervous about running it, this will show you what's going to be delete
 ```console
 find ~/.cache/ -depth -type f -atime +365
 ```
+
+30. [Find and remove content with `sed`](https://stackoverflow.com/questions/905144/sed-beginner-changing-all-occurrences-in-a-folder)
+
+
+```console
+find . -type f -exec sed -i "s/foo/bar/g" {} \;
+```
