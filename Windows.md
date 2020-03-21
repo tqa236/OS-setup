@@ -10,3 +10,9 @@
 dism /Online /Cleanup-Image /AnalyzeComponentStore
 dism /online /Cleanup-Image /StartComponentCleanup
 ```
+
+* [Change name by pattern](https://devblogs.microsoft.com/scripting/use-powershell-to-rename-files-in-bulk/)
+
+```PowerShell
+Get-ChildItem -Filter “*current*” -Recurse | Rename-Item -NewName {$_.name -replace ‘current’,’old’ }
+```
