@@ -251,3 +251,15 @@ find ~/.cache/ -depth -type f -atime +365
 ```console
 find . -type f -exec sed -i "s/foo/bar/g" {} \;
 ```
+
+40. Update all
+
+```
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias dist="sudo apt dist-upgrade"
+alias autorm="sudo apt autoremove"
+alias autoclean="sudo apt autoclean"
+
+alias maintain="update; upgrade; dist; autorm; autoclean"
+```
