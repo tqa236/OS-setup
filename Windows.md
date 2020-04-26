@@ -16,3 +16,7 @@ dism /online /Cleanup-Image /StartComponentCleanup
 ```PowerShell
 Get-ChildItem -Filter “*current*” -Recurse | Rename-Item -NewName {$_.name -replace ‘current’,’old’ }
 ```
+
+* Turn off the Media Session Service on Google Chrome
+
+Paste `chrome://flags/#enable-media-session-service` to the browser and turn it off.
