@@ -28,10 +28,7 @@ sudo update-grub
 
 3. Install terminator
 
-(Source: https://gnometerminator.blogspot.com/p/introduction.html)
-
 ```console
-sudo add-apt-repository ppa:gnome-terminator
 sudo apt update
 sudo apt install terminator
 ```
