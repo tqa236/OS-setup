@@ -25,3 +25,13 @@ ditto -V -x -k --sequesterRsrc --rsrc FILENAME.ZIP DESTINATIONDIRECTORY
 ```bash
 unzip \*.zip
 ```
+
+* Update OS and packages with terminal
+
+
+```bash
+softwareupdate -l
+softwareupdate -i -a
+brew update
+brew upgrade
+```
