@@ -265,3 +265,11 @@ alias maintain="snap_update; update; upgrade; dist; autorm; autoclean"
 41. [Install Ubuntu from Windows without a USB](https://askubuntu.com/questions/484434/how-can-i-install-ubuntu-without-cd-and-usb?fbclid=IwAR3LgsSCuD-b3rXTe65qf6rf9Y2hjCk_sDFinJ-FlbvJNsDy3BfnB0bZIHY)
 
 It's a nightmare. Not sure which one works.
+
+42. Atom: [Linter] Error running clang: Failed to spawn command clang
+
+Must install `clang`:
+
+```console
+sudo apt install clang
+```
