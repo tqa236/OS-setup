@@ -70,6 +70,8 @@ C++ packages: atom-ctags, atomic-rtags, autocomplete-ctags, linter-clang, atom-t
 
 7. Ubuntu 16.04 freezes on restart
 
+Update 2020/06/02 for Ubuntu 20.10: Need to upgrade graphic drivers
+
 (Source: http://michalorman.com/2013/10/fix-ubuntu-freeze-during-restart/)
 
 Put the following in ```/etc/default/grub```:
@@ -86,7 +88,16 @@ $ sudo update-grub
 
 8. Update graphical card drivers for Ubuntu
 
+Update 2020/06/02 for Ubuntu 20.10 (https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-20-04-focal-fossa-linux)
+
+```console
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+```
+
 (Source: https://www.howtogeek.com/242045/how-to-get-the-latest-nvidia-amd-or-intel-graphics-drivers-on-ubuntu/)
+
+
 
 ```console
 sudo add-apt-repository ppa:graphics-drivers/ppa
