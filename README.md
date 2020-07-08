@@ -265,12 +265,13 @@ find . -type f -exec sed -i "s/foo/bar/g" {} \;
 ```
 alias snap_update="sudo snap refresh"
 alias update="sudo apt update"
-alias upgrade="sudo apt upgrade"
+alias upgrade="sudo apt upgrade -y"
 alias dist="sudo apt dist-upgrade"
 alias autorm="sudo apt autoremove"
 alias autoclean="sudo apt autoclean"
+alias conda_update="conda update --all -y"
 
-alias maintain="snap_update; update; upgrade; dist; autorm; autoclean"
+alias maintain="snap_update; update; upgrade; dist; autorm; autoclean; conda_update"
 ```
 
 41. [Install Ubuntu from Windows without a USB](https://askubuntu.com/questions/484434/how-can-i-install-ubuntu-without-cd-and-usb?fbclid=IwAR3LgsSCuD-b3rXTe65qf6rf9Y2hjCk_sDFinJ-FlbvJNsDy3BfnB0bZIHY)
