@@ -267,7 +267,7 @@ alias snap_update="sudo snap refresh"
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade -y"
 alias dist="sudo apt dist-upgrade"
-alias autorm="sudo apt autoremove"
+alias autorm="sudo apt autoremove -y"
 alias autoclean="sudo apt autoclean"
 alias conda_update="conda update --all -y"
 
