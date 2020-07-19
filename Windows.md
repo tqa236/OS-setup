@@ -17,6 +17,6 @@ dism /online /Cleanup-Image /StartComponentCleanup
 Get-ChildItem -Filter “*current*” -Recurse | Rename-Item -NewName {$_.name -replace ‘current’,’old’ }
 ```
 
-* Turn off the Media Session Service on Google Chrome
+* Turn off the sound popup on Google Chrome
 
-Paste `chrome://flags/#enable-media-session-service` to the browser and turn it off.
+Paste `chrome://flags/#hardware-media-key-handling` to the browser and turn it off.
