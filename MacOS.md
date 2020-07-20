@@ -34,4 +34,5 @@ softwareupdate -l
 softwareupdate -i -a
 brew update
 brew upgrade
+conda update --all -y
 ```
