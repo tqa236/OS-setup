@@ -24,3 +24,10 @@ Paste `chrome://flags/#hardware-media-key-handling` to the browser and turn it o
 * Check file size recursively
 
 Use [TreeSize Free](https://www.jam-software.com/treesize_free) (better) or [WinDirStat](https://windirstat.net/)
+
+* [Delete files on System Volume Information](https://www.tenforums.com/general-support/114584-how-do-i-delete-files-system-volume-information.html)
+
+```PowerShell
+vssadmin Resize ShadowStorage /For=C: /On=C: /Maxsize=320MB
+vssadmin delete shadows /for=c: /all /quiet
+```
