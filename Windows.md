@@ -23,4 +23,4 @@ Paste `chrome://flags/#hardware-media-key-handling` to the browser and turn it o
 
 * Check file size recursively
 
-Use [WinDirStat](https://windirstat.net/)
+Use [TreeSize Free](https://www.jam-software.com/treesize_free) (better) or [WinDirStat](https://windirstat.net/)
