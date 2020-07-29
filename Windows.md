@@ -20,3 +20,7 @@ Get-ChildItem -Filter “*current*” -Recurse | Rename-Item -NewName {$_.name -
 * Turn off the sound popup on Google Chrome
 
 Paste `chrome://flags/#hardware-media-key-handling` to the browser and turn it off.
+
+* Check file size recursively
+
+Use [WinDirStat](https://windirstat.net/)
