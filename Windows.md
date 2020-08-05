@@ -31,3 +31,9 @@ Use [TreeSize Free](https://www.jam-software.com/treesize_free) (better) or [Win
 vssadmin Resize ShadowStorage /For=C: /On=C: /Maxsize=320MB
 vssadmin delete shadows /for=c: /all /quiet
 ```
+
+* Iterate through all subdirectories and format code
+
+```PowerShell
+Get-ChildItem -Directory | Foreach-Object {dotnet-format -w $_.FullName}
+```
