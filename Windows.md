@@ -36,4 +36,10 @@ vssadmin delete shadows /for=c: /all /quiet
 
 ```PowerShell
 Get-ChildItem -Directory | Foreach-Object {dotnet-format -w $_.FullName}
+Get-ChildItem -Directory | Foreach-Object {fantomas $_.FullName}
+```
+
+* Remove items with pattern
+```PowerShell
+Get-ChildItem -Filter "*.txt" -Recurse | Remove-Item
 ```
