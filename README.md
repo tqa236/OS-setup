@@ -269,7 +269,7 @@ alias upgrade="sudo apt upgrade -y"
 alias dist="sudo apt dist-upgrade"
 alias autorm="sudo apt autoremove -y"
 alias autoclean="sudo apt autoclean"
-alias conda_update="conda update -n base conda; conda update --all -y"
+alias conda_update="conda update -n base conda -y; conda update --all -y"
 
 alias maintain="snap_update; update; upgrade; dist; autorm; autoclean; conda_update"
 ```
