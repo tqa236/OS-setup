@@ -285,3 +285,9 @@ Must install `clang`:
 ```console
 sudo apt install clang
 ```
+
+43. [Open an mp4 video](https://stackoverflow.com/questions/40760864/how-to-play-mp4-video-in-firefox/40784948)
+
+```console
+sudo apt-get install ubuntu-restricted-extras
+```
