@@ -291,3 +291,15 @@ sudo apt install clang
 ```console
 sudo apt-get install ubuntu-restricted-extras
 ```
+
+44. [Set `JAVA_HOME`](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04)
+
+```console
+sudo nano /etc/environment
+```
+
+Then
+
+```console
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+```
