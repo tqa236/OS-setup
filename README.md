@@ -264,9 +264,9 @@ find . -type f -exec sed -i "s/foo/bar/g" {} \;
 
 ```
 alias snap_update="sudo snap refresh"
-alias update="sudo apt update"
+alias update="sudo apt update -y"
 alias upgrade="sudo apt upgrade -y"
-alias dist="sudo apt dist-upgrade"
+alias dist="sudo apt dist-upgrade -y"
 alias autorm="sudo apt autoremove -y"
 alias autoclean="sudo apt autoclean"
 alias conda_update="conda update -n base conda -y; conda update --all -y"
