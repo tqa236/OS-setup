@@ -303,3 +303,14 @@ Then
 ```console
 JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
 ```
+
+45. [Debug slow `zsh`](https://unix.stackexchange.com/questions/565905/oh-my-zshs-prompt-is-slow-how-to-fix-this)
+
+Run the command `set -x` to see which library causes the slowness. Run `set +x` to turn it off
+
+46. [Make `zsh`'s git module run faster](https://stackoverflow.com/questions/12765344/oh-my-zsh-slow-but-only-for-certain-git-repo)
+
+```console
+git config --add oh-my-zsh.hide-status 1
+git config --add oh-my-zsh.hide-dirty 1
+```
