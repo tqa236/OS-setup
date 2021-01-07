@@ -314,3 +314,9 @@ Run the command `set -x` to see which library causes the slowness. Run `set +x` 
 git config --add oh-my-zsh.hide-status 1
 git config --add oh-my-zsh.hide-dirty 1
 ```
+
+47. [Terminator's Ctrl+Shift+E not working in Bionic](https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1738500)
+
+* launch ibus-setup,
+* select emoji tab,
+* change the shortcut or remove it
