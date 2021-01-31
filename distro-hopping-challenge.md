@@ -12,6 +12,14 @@ Here's the rule:
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
 
+Error: exf remove disks or other media press any key to restart
+
+2. Use Rufus to prepare the installation USB (https://rufus.ie/)
+
 ## Ubuntu (02/02/2020)
 
 ## Debian (31/01/2021)
+
+1. Graphical Debian Installer
+
+2. Debian Installer
