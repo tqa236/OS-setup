@@ -320,3 +320,9 @@ git config --add oh-my-zsh.hide-dirty 1
 * launch ibus-setup,
 * select emoji tab,
 * change the shortcut or remove it
+
+48. [Find package location installed by `apt`](https://askubuntu.com/questions/129022/determine-destination-location-of-apt-get-install-package)
+
+```console
+dpkg -L <package>
+```
