@@ -14,6 +14,10 @@ Here's the rule:
 
 Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeblocks-on-linux-la3
 
+2. Setup Atom + all packages and solve a coding exercise
+
+3. Setup Docker and run Jupyter Notebook inside Docker
+
 ## Common
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
