@@ -8,6 +8,12 @@ Here's the rule:
 4. Update to dev version
 5. Repeat 2-3
 
+## Challenges
+
+1. Set up OpenGL Utility Toolkit (GLUT) and Codeblocks on Linux 
+
+Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeblocks-on-linux-la3
+
 ## Common
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
