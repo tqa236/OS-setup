@@ -18,6 +18,8 @@ Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeb
 
 3. Setup Docker and run Jupyter Notebook inside Docker
 
+4. Terminal customization
+
 ## Common
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
