@@ -24,6 +24,12 @@ Error: exf remove disks or other media press any key to restart
 
 ## Ubuntu (02/02/2020)
 
+1. [OpenGL setup for code::blocks “cannot find -lXxf86vm”](https://stackoverflow.com/questions/12186494/opengl-setup-for-codeblocks-cannot-find-lxxf86vm)
+
+```console
+sudo apt install libxxf86vm-dev
+```
+
 ## Debian (31/01/2021)
 
 1. Graphical Debian Installer
