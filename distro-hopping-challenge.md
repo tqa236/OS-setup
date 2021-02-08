@@ -20,6 +20,10 @@ Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeb
 
 4. Terminal customization
 
+5. plaidml
+
+6. mlflow
+
 ## Common
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
