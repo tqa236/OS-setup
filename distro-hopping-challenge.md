@@ -3,7 +3,10 @@
 Here's the rule:
 
 1. Install a new distro
-2. Setup the coding environment
+2. Install Terminator
+3. Install zsh with its supporting packages (git, autosuggestions)
+4. Setup Atom and relevant packages
+5. Install Docker
 3. Solve 1 exercise for each language on Exercism
 4. Update to dev version
 5. Repeat 2-3
@@ -16,9 +19,10 @@ Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeb
 
 2. Setup Atom + all packages and solve a coding exercise
 
-3. Setup Docker and run Jupyter Notebook inside Docker
-
-4. Terminal customization
+3. Run Jupyter Notebook inside Docker
+* Install Docker (https://docs.docker.com/engine/install/)
+* Run Docker without sudo (https://docs.docker.com/engine/install/linux-postinstall/)
+* Run Jupyter Notebook inside Docker
 
 5. plaidml
 
