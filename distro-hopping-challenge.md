@@ -28,6 +28,8 @@ Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeb
 
 6. mlflow
 
+7. Set up a Jupyter Hub server that allows multiple users to use at the same time.
+
 ## Common
 
 1. Use UNetbootin to prepare the installation USB (http://unetbootin.github.io/)
