@@ -21,7 +21,7 @@ Ref: https://dev.to/didiksupriadi41/set-up-opengl-utility-toolkit-glut-and-codeb
 
 3. Run Jupyter Notebook inside Docker
 * Install Docker (https://docs.docker.com/engine/install/)
-* Run Docker without sudo (https://docs.docker.com/engine/install/linux-postinstall/)
+* Run Docker without sudo (https://docs.docker.com/engine/security/rootless/)
 * Run Jupyter Notebook inside Docker
 
 5. plaidml
