@@ -51,3 +51,25 @@ sudo apt install libxxf86vm-dev
 1. Graphical Debian Installer
 
 2. Debian Installer
+
+3. Install nonfree software/firmware
+
+Add to `/etc/apt/sources.list` (https://unix.stackexchange.com/questions/467027/apt-refusing-to-install-kernel-firmware-package-from-debian-backports)
+
+```
+deb http://deb.debian.org/debian stretch main contrib non-free
+
+deb http://deb.debian.org/debian-security/ stretch/updates main contrib non-free
+
+deb http://deb.debian.org/debian stretch-updates main contrib non-free
+
+### backports###
+
+deb http://ftp.debian.org/debian stretch-backports main contrib non-free
+```
+
+Search for mission firmware (install `apt-file` if necessary) (https://unix.stackexchange.com/questions/556946/possible-missing-firmware-lib-firmware-i915-for-module-i915)
+
+```
+apt-file search bxt_dmc
+```
