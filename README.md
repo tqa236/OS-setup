@@ -326,3 +326,15 @@ git config --add oh-my-zsh.hide-dirty 1
 ```console
 dpkg -L <package>
 ```
+
+49. Find public IP using command line
+
+```console
+curl ifconfig.me
+```
+
+50. Check if a port is open for an IP/VM/site
+
+```console
+telnet <Public IP> <port>
+```
