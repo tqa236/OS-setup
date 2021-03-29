@@ -43,3 +43,17 @@ Get-ChildItem -Directory | Foreach-Object {fantomas $_.FullName}
 ```PowerShell
 Get-ChildItem -Filter "*.txt" -Recurse | Remove-Item
 ```
+
+* Update PowerShell by the command line (https://superuser.com/questions/1287032/update-powershell-through-command-line)
+
+Stable version
+
+```PowerShell
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+```
+
+Preview version
+
+```PowerShell
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Preview"
+```
