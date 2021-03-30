@@ -57,3 +57,11 @@ Preview version
 ```PowerShell
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Preview"
 ```
+
+* Shrink WSL file: Use https://github.com/mikemaccana/compact-wsl2-disk
+
+* Run scripts with PowerShell: https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+
+```PowerShell
+powershell -ExecutionPolicy Bypass -File script.ps1
+```
