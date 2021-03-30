@@ -65,3 +65,10 @@ iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Preview"
 ```PowerShell
 powershell -ExecutionPolicy Bypass -File script.ps1
 ```
+
+* Remove `wsl` volume
+
+```PowerShell
+wsl.exe --list --verbose
+wsl --unregister <NAME>
+```
