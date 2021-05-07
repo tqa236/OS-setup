@@ -39,3 +39,11 @@ conda update --all -y
 
 * [Permanently add a ssh key](https://stackoverflow.com/questions/3466626/how-to-permanently-add-a-private-key-with-ssh-add-on-ubuntu)
 
+* Check file sizes (https://discussions.apple.com/thread/4013329)
+
+Use OmniDiskSweeper
+
+```bash
+sudo /Applications/OmniDiskSweeper.app/Contents/MacOS/OmniDiskSweeper
+```
+
