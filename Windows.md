@@ -72,3 +72,16 @@ powershell -ExecutionPolicy Bypass -File script.ps1
 wsl.exe --list --verbose
 wsl --unregister <NAME>
 ```
+
+* No Internet connection in WSL (https://stackoverflow.com/questions/62314789/no-internet-connection-on-wsl-ubuntu-windows-subsystem-for-linux)
+
+Open PowerShell as an Administrator and type these commands:
+
+```PowerShell
+netsh winsock reset 
+netsh int ip reset all
+netsh winhttp reset proxy
+ipconfig /flushdns
+```
+
+Reboot your machine.
