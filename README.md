@@ -341,6 +341,8 @@ telnet <Public IP> <port>
 
 51. Unzip multiple files to a folder with the same name (https://askubuntu.com/questions/518370/extract-several-zip-files-each-in-a-new-folder-with-the-same-name-via-ubuntu-t)
 
+The flag `-n` is used to unzip only non existed files (https://askubuntu.com/questions/994731/how-to-skip-unzipping-a-file-that-already-exists)
+
 ```console
-find . -name '*.kmz' -exec sh -c 'unzip -d "${1%.*}" "$1"' _ {} \;
+find . -name '*.kmz' -exec sh -c 'unzip -n -d "${1%.*}" "$1"' _ {} \;
 ```
