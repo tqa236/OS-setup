@@ -338,3 +338,9 @@ curl ifconfig.me
 ```console
 telnet <Public IP> <port>
 ```
+
+51. Unzip multiple files to a folder with the same name (https://askubuntu.com/questions/518370/extract-several-zip-files-each-in-a-new-folder-with-the-same-name-via-ubuntu-t)
+
+```console
+find . -name '*.kmz' -exec sh -c 'unzip -d "${1%.*}" "$1"' _ {} \;
+```
