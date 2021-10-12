@@ -346,3 +346,9 @@ The flag `-n` is used to unzip only non existed files (https://askubuntu.com/que
 ```console
 find . -name '*.kmz' -exec sh -c 'unzip -n -d "${1%.*}" "$1"' _ {} \;
 ```
+
+52. Remove a file from a Git repository without deleting it from the local filesystem (https://stackoverflow.com/questions/1143796/remove-a-file-from-a-git-repository-without-deleting-it-from-the-local-filesyste)
+
+```console
+git rm --cached mylogfile.log
+```
