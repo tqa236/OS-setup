@@ -352,3 +352,12 @@ find . -name '*.kmz' -exec sh -c 'unzip -n -d "${1%.*}" "$1"' _ {} \;
 ```console
 git rm --cached mylogfile.log
 ```
+
+53. Fix a corrupt zsh history file (https://shapeshed.com/zsh-corrupt-history-file/)
+
+```console
+mv ~/.zsh_history ~/.zsh_history_bad
+strings -eS ~/.zsh_history_bad > ~/.zsh_history
+fc -R ~/.zsh_history
+rm ~/.zsh_history_bad
+```
