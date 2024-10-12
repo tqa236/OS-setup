@@ -270,10 +270,9 @@ alias upgrade="sudo apt full-upgrade -y"
 alias dist="sudo apt dist-upgrade -y"
 alias autorm="sudo apt autoremove -y"
 alias autoclean="sudo apt autoclean"
-alias conda_update="conda update -n base conda -y; conda update --all -y"
+alias uv_update="uv self update"
 
-alias maintain="sync_clock; snap_update; update; upgrade; dist; autorm; autoclean; conda_update"
-
+alias maintain="sync_clock; snap_update; update; upgrade; dist; autorm; autoclean; uv_update"
 ```
 
 41. [Install Ubuntu from Windows without a USB](https://askubuntu.com/questions/484434/how-can-i-install-ubuntu-without-cd-and-usb?fbclid=IwAR3LgsSCuD-b3rXTe65qf6rf9Y2hjCk_sDFinJ-FlbvJNsDy3BfnB0bZIHY)
