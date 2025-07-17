@@ -362,3 +362,18 @@ strings -eS ~/.zsh_history_bad > ~/.zsh_history
 fc -R ~/.zsh_history
 rm ~/.zsh_history_bad
 ```
+- git alias
+
+```
+[alias]
+	      au = add -u
+        ca = commit --amend --no-edit
+        ce = commit --allow-empty -m 'EMPTY COMMIT'
+        co = checkout
+        lg = log --graph --oneline --all
+        lt = ls-tree -r HEAD
+        pf = push --force-with-lease
+	      pp = pull --prune
+        pr = pull --prune --rebase
+        cr = clone --recurse-submodules
+```
